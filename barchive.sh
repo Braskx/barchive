@@ -4,11 +4,11 @@
 # Coded By: Bryson Forget :^)
 
 #TODO 
-# barchive [-gz/-bz] [local] [remote]
+# barchive [-gz/-bz] [name] [local] [remote]
 # create simple man page
 
 clear
-echo "Welcome to Bryson's Backup Script (^_^)" && sleep 1
+echo "Welcome to the Barchive Backup Script (^_^)" && sleep 1
 echo "Keep in mind that this program only uses absolute paths" && sleep 1
 
 #functions (look at the right to see the variables they create)
