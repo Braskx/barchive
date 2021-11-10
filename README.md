@@ -1,2 +1,2 @@
 # barchive
-A simple archiver compatible with GNU Gzip and Bzip2
+A simple archiver script compatible with GNU Gzip and Bzip2
