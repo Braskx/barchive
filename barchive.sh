@@ -50,7 +50,7 @@ func_init(){
 unset yn
 unset yn2
 func_mypath
-while $(! cd $mypath 2>/dev/null) && echo "Invalid Syntax"
+while !(cd $mypath 2>/dev/null) && echo "Invalid Syntax"
 do
 	func_mypath
 done
