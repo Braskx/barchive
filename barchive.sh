@@ -16,7 +16,6 @@ read -p "What is the file name: " myname
 }
 #function that checks for $cprog variable and compresses accordingly
 func_compress(){
-	echo "FUCK"
 if [ $cprog == "GZ" ]
 	then
 	tar -zcvf $myname $mypath
